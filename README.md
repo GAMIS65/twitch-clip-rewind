@@ -10,6 +10,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 Get your Twitch client ID and client secret from [here](https://dev.twitch.tv/console/apps/create), and put them into the `.env.local` file.
 
+Install all dependencies:
+```bash
+npm install
+```
+
 To run in dev mode:
 ```bash
 npm run dev
