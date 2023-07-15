@@ -39,7 +39,7 @@ export default function Home() {
                     startDate: values.startDate,
                     endDate: values.endDate
                   }
-                }} className='rounded border-solid border-4 border-green-500 bg-green-500 p-1'>Generate rewind</Link></button>
+                }} prefetch={false} className='rounded border-solid border-4 border-green-500 bg-green-500 p-1'>Generate rewind</Link></button>
       </div>
         <h1 className='text-xl'><b>Optional settings:</b></h1>
         <p><b>Number of clips</b></p>
